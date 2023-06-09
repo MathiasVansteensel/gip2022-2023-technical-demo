@@ -158,7 +158,7 @@ public partial class FFTSpectrum : Form
 		}
 
 		List<float> detectedFreqs = DetectFrequencies(spectrumPoints, out avg);
-		float transformedAvg = avg / spectrum.MaxBy(p => p.);
+		//float transformedAvg = avg / spectrum.MaxBy(p => p.);
 
 		lbCalcFreq.Text = string.Join("Hz ", detectedFreqs);
 		
